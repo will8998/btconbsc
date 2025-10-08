@@ -24,8 +24,8 @@ const brandSerif = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "cbBTC Strategy",
-  description: "Perpetual bitcoin accumulation on Base",
+  title: "BTC on BSC Strategy",
+  description: "Perpetual bitcoin accumulation on BNB Smart Chain (BSC)",
   icons: {
     icon: [
       { rel: "icon", url: "/favicon.jpg" },

@@ -14,7 +14,7 @@ export function Landing() {
             <span className="text-sm font-semibold">0</span>
           </div>
           <div className="flex items-center justify-between rounded-full bg-white/5 border border-white/10 px-3 py-1.5">
-            <span className="text-xs text-white/70">cbBTC</span>
+            <span className="text-xs text-white/70">BTC on BSC</span>
             <span className="text-sm font-semibold">0</span>
           </div>
           <div className="flex items-center justify-between rounded-full bg-white/5 border border-white/10 px-3 py-1.5">
@@ -38,7 +38,7 @@ export function Landing() {
           playsInline
         />
         <div className="absolute inset-0 w-full max-w-[1400px] mx-auto px-4 sm:px-6 md:px-8 text-center flex flex-col items-center justify-center z-10">
-          <Image src="/logo.png" alt="cbBTC Strategy" width={600} height={200} className="w-[70%] max-w-[680px] h-auto object-contain drop-shadow-lg" />
+          <Image src="/logo.png" alt="BTC on BSC Strategy" width={600} height={200} className="w-[70%] max-w-[680px] h-auto object-contain drop-shadow-lg" />
           <p className="mt-6 text-white/80 max-w-2xl mx-auto">
             Automated buys, smart profit-taking, and deflationary burns—on repeat.
           </p>
