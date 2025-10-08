@@ -172,7 +172,7 @@ export function Dashboard() {
           ) : (
             <iframe
               className="w-full h-full"
-              src="https://dexscreener.com/bsc/0x0000000000000000000000000000000000000000?embed=1&theme=dark"
+              src="https://dexscreener.com/bsc/0x523d78f26B5674e509Ba79517Df9a778b1885BaE?embed=1&theme=dark"
               title="Dexscreener"
             />
           )}

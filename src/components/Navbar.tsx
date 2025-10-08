@@ -16,7 +16,7 @@ export function Navbar() {
         {/* Primary nav */}
         <nav className="hidden md:flex items-center gap-6 text-[15px] text-white/80">
           <a
-            href="https://dexscreener.com/base/0x156053D0F9d842149164C9a8A595D1E0E1c41eEA"
+            href="https://dexscreener.com/bsc/0x523d78f26B5674e509Ba79517Df9a778b1885BaE"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white"
