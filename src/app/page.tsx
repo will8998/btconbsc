@@ -29,7 +29,7 @@ export default function Home() {
               </div>
               <div className="rounded-xl border border-white/10 bg-white/5 p-4">
                 <div className="text-xs text-white/70 mb-2">4th</div>
-                <p className="text-white/90 text-sm">When the target hits, received ETH is used to buy back and burn, reducing supply.</p>
+                <p className="text-white/90 text-sm">When the target hits, received BNB is used to buy back and burn, reducing supply.</p>
               </div>
             </div>
           </div>
