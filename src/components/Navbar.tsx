@@ -6,20 +6,20 @@ import { User } from "lucide-react";
 
 export function Navbar() {
   return (
-    <div className="sticky top-0 z-40 bg-[--color-accent]">
+    <div className="sticky top-0 z-40 bg-[#0b0e11] border-b border-white/10">
       <div className="w-full px-4 sm:px-6 md:px-8 h-16 flex items-center justify-between">
         {/* Brand */}
-        <Link href="/" className="flex items-center gap-2 font-extrabold tracking-wide text-black">
+        <Link href="/" className="flex items-center gap-2 font-extrabold tracking-wide text-white">
           <span className="text-2xl">BTC on BSC</span>
         </Link>
 
         {/* Primary nav */}
-        <nav className="hidden md:flex items-center gap-6 text-[15px] text-black/90">
+        <nav className="hidden md:flex items-center gap-6 text-[15px] text-white/80">
           <a
             href="https://dexscreener.com/base/0x156053D0F9d842149164C9a8A595D1E0E1c41eEA"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-black"
+            className="hover:text-white"
           >
             Dexscreener
           </a>
@@ -27,14 +27,14 @@ export function Navbar() {
             href="https://t.me/cbbtcstrategy"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-black"
+            className="hover:text-white"
           >
             Community
           </a>
         </nav>
 
         {/* Far right: Open App */}
-        <Link href="/dashboard" className="inline-flex items-center justify-center h-10 px-5 rounded-full bg-black text-[--color-accent] font-bold shadow-md hover:opacity-90">
+        <Link href="/dashboard" className="inline-flex items-center justify-center h-10 px-5 rounded-full bg-[--color-accent] text-black font-bold shadow-md hover:opacity-90">
           Open App
         </Link>
       </div>

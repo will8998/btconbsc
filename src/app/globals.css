@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffd204;
-  --foreground: #0a0a0a;
-  --card: #0b1f36;
-  --muted: #0a1a2b;
-  /* Binance yellow palette */
-  --accent: #f3ba2f;
-  --accent-600: #d9a200;
-  --accent-700: #b88900;
-  --ring: #f3ba2f;
-  --lightsaber: #f3ba2f;
+  /* Binance dark theme base with yellow accent */
+  --background: #0b0e11; /* near-black */
+  --foreground: #eaecef; /* light gray */
+  --card: #181a20; /* dark surface */
+  --muted: #0f1115; /* darker surface */
+  --accent: #ffd204; /* user-specified yellow */
+  --accent-600: #e6bd00;
+  --accent-700: #c9a800;
+  --ring: #ffd204;
+  --lightsaber: #ffd204;
 }
 
 @theme inline {
@@ -29,12 +29,9 @@
   --radius-lg: 16px;
 }
 
-/* Force dark theme */
+/* Keep same colors regardless of OS theme to match brand */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ffd204;
-    --foreground: #0a0a0a;
-  }
+  :root { }
 }
 
 body {
