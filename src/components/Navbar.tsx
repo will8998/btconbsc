@@ -34,7 +34,7 @@ export function Navbar() {
         </nav>
 
         {/* Far right: Open App */}
-        <Link href="/dashboard" className="inline-flex items-center justify-center h-9 px-4 rounded-full bg-black text-[--color-accent] font-medium">
+        <Link href="/dashboard" className="inline-flex items-center justify-center h-10 px-5 rounded-full bg-black text-[--color-accent] font-bold shadow-md hover:opacity-90">
           Open App
         </Link>
       </div>
